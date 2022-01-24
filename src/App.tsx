@@ -1,14 +1,13 @@
-import Content from "./components/Content"
+import React from 'react';
+import './App.css';
+import Content from './features/specs/Content';
 
-export const App = () => {
-    return (
-        <div>
-            <div className="header">
-                <h1>Laptop customisation tool</h1>
-            </div>
-            <Content />
-        </div>
-    )
+function App() {
+  return (
+    <div className="App">
+      <Content />
+    </div>
+  );
 }
 
 export default App;
